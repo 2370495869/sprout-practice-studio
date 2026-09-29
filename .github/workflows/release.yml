@@ -1,0 +1,61 @@
+name: Create static release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Build and attach static site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tagged source
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run format:check
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build portable static site
+        run: npm run build
+        env:
+          VITE_BASE_PATH: ./
+
+      - name: Package static files
+        id: package
+        run: |
+          archive="sprout-practice-studio-${GITHUB_REF_NAME}-static.zip"
+          zip -r "$archive" dist
+          echo "archive=$archive" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          "${{ steps.package.outputs.archive }}"
+          --verify-tag
+          --title "$GITHUB_REF_NAME"
+          --generate-notes

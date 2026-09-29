@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "title": "小芽练习室 (Sprout Practice Studio)",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "数一数，有几只小鸟？🐦 🐦 🐦",
+      "options": ["1只", "2只", "3只", "4只"],
+      "answer": 2,
+      "explanation": "共有3只小鸟，仔细数一数哦！"
+    },
+    {
+      "id": 2,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "数一数，有几个苹果？🍎 🍎 🍎 🍎 🍎",
+      "options": ["3个", "4个", "5个", "6个"],
+      "answer": 2,
+      "explanation": "共有5个苹果！"
+    },
+    {
+      "id": 3,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "下面哪个数字是'3'？",
+      "options": ["1", "2", "3", "4"],
+      "answer": 2,
+      "explanation": "这就是数字3！"
+    },
+    {
+      "id": 4,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "match",
+      "question": "把数字和对应的数量连起来！",
+      "explanation": "数字1对应1个苹果，2对应2个，3对应3个！",
+      "pairs": [
+        {
+          "id": "q4-pair-1",
+          "left": "1",
+          "right": "🍎"
+        },
+        {
+          "id": "q4-pair-2",
+          "left": "2",
+          "right": "🍎🍎"
+        },
+        {
+          "id": "q4-pair-3",
+          "left": "3",
+          "right": "🍎🍎🍎"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "2 + 1 = ?",
+      "options": ["2", "3", "4", "1"],
+      "answer": 1,
+      "explanation": "2加1等于3！"
+    },
+    {
+      "id": 6,
+      "subject": "math",
+      "ageGroup": "3-5",
+      "type": "match",
+      "question": "把形状和名字配对吧！",
+      "explanation": "圆形像太阳，方形像积木，三角形像屋顶！",
+      "pairs": [
+        {
+          "id": "q6-pair-1",
+          "left": "圆形",
+          "right": "⭕"
+        },
+        {
+          "id": "q6-pair-2",
+          "left": "方形",
+          "right": "⬜"
+        },
+        {
+          "id": "q6-pair-3",
+          "left": "三角形",
+          "right": "🔺"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "chinese",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "下面哪个是'大'字？",
+      "options": ["人", "大", "天", "太"],
+      "answer": 1,
+      "explanation": "'大'字像一个人张开双臂，表示很大很大！"
+    },
+    {
+      "id": 8,
+      "subject": "chinese",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "下面哪个是'山'字？",
+      "options": ["水", "火", "山", "石"],
+      "answer": 2,
+      "explanation": "'山'字像一座高高的山峰！"
+    },
+    {
+      "id": 9,
+      "subject": "chinese",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "下面哪个是'日'字？",
+      "options": ["日", "目", "口", "田"],
+      "answer": 0,
+      "explanation": "'日'字表示太阳，方框里有一横！"
+    },
+    {
+      "id": 10,
+      "subject": "chinese",
+      "ageGroup": "3-5",
+      "type": "match",
+      "question": "把汉字和对应的图画匹配",
+      "explanation": "火像火焰，水像水滴，木像树木！",
+      "pairs": [
+        {
+          "id": "q10-pair-1",
+          "left": "火",
+          "right": "🔥"
+        },
+        {
+          "id": "q10-pair-2",
+          "left": "水",
+          "right": "💧"
+        },
+        {
+          "id": "q10-pair-3",
+          "left": "木",
+          "right": "🌳"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "subject": "chinese",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "'一'加'一'是什么字？",
+      "options": ["二", "十", "三", "人"],
+      "answer": 0,
+      "explanation": "一加一等于二！"
+    },
+    {
+      "id": 12,
+      "subject": "english",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "Which one is 'red'?",
+      "options": ["🔵 蓝色", "🔴 红色", "🟡 黄色", "🟢 绿色"],
+      "answer": 1,
+      "explanation": "Red = 红色！"
+    },
+    {
+      "id": 13,
+      "subject": "english",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "What does 'cat' mean? 🐱",
+      "options": ["狗", "猫", "鸟", "鱼"],
+      "answer": 1,
+      "explanation": "Cat = 猫！"
+    },
+    {
+      "id": 14,
+      "subject": "english",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "What does 'banana' mean?",
+      "options": ["苹果", "橘子", "香蕉", "西瓜"],
+      "answer": 2,
+      "explanation": "Banana = 香蕉！"
+    },
+    {
+      "id": 15,
+      "subject": "english",
+      "ageGroup": "3-5",
+      "type": "match",
+      "question": "把英文字母的大小写配对吧",
+      "explanation": "大写A对应小写a，这是字母的大小写配对！",
+      "pairs": [
+        {
+          "id": "q15-pair-1",
+          "left": "A",
+          "right": "a"
+        },
+        {
+          "id": "q15-pair-2",
+          "left": "B",
+          "right": "b"
+        },
+        {
+          "id": "q15-pair-3",
+          "left": "C",
+          "right": "c"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "subject": "english",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "Which one means '你好'?",
+      "options": ["Goodbye", "Hello", "Thank you", "Sorry"],
+      "answer": 1,
+      "explanation": "Hello = 你好！"
+    },
+    {
+      "id": 17,
+      "subject": "common",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "哪种水果是黄色的、弯弯的？",
+      "options": ["苹果", "香蕉", "西瓜", "葡萄"],
+      "answer": 1,
+      "explanation": "香蕉是黄色的、弯弯的，像月亮一样！"
+    },
+    {
+      "id": 18,
+      "subject": "common",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "什么动物会飞？",
+      "options": ["小狗 🐕", "小鱼 🐟", "小鸟 🐦", "小猫 🐱"],
+      "answer": 2,
+      "explanation": "小鸟有翅膀，可以在天空飞翔！"
+    },
+    {
+      "id": 19,
+      "subject": "common",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "哪个是用来喝水的？",
+      "options": ["筷子", "杯子", "碗", "盘子"],
+      "answer": 1,
+      "explanation": "杯子是用来喝水的！"
+    },
+    {
+      "id": 20,
+      "subject": "common",
+      "ageGroup": "3-5",
+      "type": "match",
+      "question": "把动物和它的叫声配对吧",
+      "explanation": "小猫喵喵叫，小狗汪汪叫，小羊咩咩叫！",
+      "pairs": [
+        {
+          "id": "q20-pair-1",
+          "left": "小猫",
+          "right": "喵喵"
+        },
+        {
+          "id": "q20-pair-2",
+          "left": "小狗",
+          "right": "汪汪"
+        },
+        {
+          "id": "q20-pair-3",
+          "left": "小羊",
+          "right": "咩咩"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "subject": "common",
+      "ageGroup": "3-5",
+      "type": "choice",
+      "question": "一年有几个季节？",
+      "options": ["2个", "3个", "4个", "5个"],
+      "answer": 2,
+      "explanation": "一年有春夏秋冬四个季节！"
+    },
+    {
+      "id": 22,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "3 + 5 = ?",
+      "options": ["6", "7", "8", "9"],
+      "answer": 2,
+      "explanation": "3加5等于8，可以掰手指算一算：3→4,5,6,7,8"
+    },
+    {
+      "id": 23,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "15 - 7 = ?",
+      "options": ["7", "8", "9", "6"],
+      "answer": 1,
+      "explanation": "15减7，从15往前数7个：15→14,13,12,11,10,9,8，答案是8！"
+    },
+    {
+      "id": 24,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "3 × 4 = ?",
+      "options": ["7", "10", "12", "15"],
+      "answer": 2,
+      "explanation": "3乘4就是3个4相加：4+4+4=12，或者背乘法口诀：三四十二！"
+    },
+    {
+      "id": 25,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "18 ÷ 3 = ?",
+      "options": ["4", "5", "6", "7"],
+      "answer": 2,
+      "explanation": "18除以3，用乘法口诀：三六十八，所以答案是6！"
+    },
+    {
+      "id": 26,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "match",
+      "question": "把算式和结果连起来",
+      "explanation": "2×3=6, 12÷4=3, 5+7=12",
+      "pairs": [
+        {
+          "id": "q26-pair-1",
+          "left": "2×3",
+          "right": "6"
+        },
+        {
+          "id": "q26-pair-2",
+          "left": "12÷4",
+          "right": "3"
+        },
+        {
+          "id": "q26-pair-3",
+          "left": "5+7",
+          "right": "12"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "subject": "math",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "一个三角形有几个角？",
+      "options": ["2个", "3个", "4个", "5个"],
+      "answer": 1,
+      "explanation": "三角形有3条边和3个角！"
+    },
+    {
+      "id": 28,
+      "subject": "chinese",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "春眠不觉晓的下一句是什么？",
+      "options": ["处处闻啼鸟", "夜来风雨声", "花落知多少", "低头思故乡"],
+      "answer": 0,
+      "explanation": "孟浩然《春晓》：春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。"
+    },
+    {
+      "id": 29,
+      "subject": "chinese",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "下列哪个词表示'很多颜色'？",
+      "options": ["五颜六色", "一心一意", "三心二意", "七上八下"],
+      "answer": 0,
+      "explanation": "五颜六色形容颜色非常多、非常漂亮！"
+    },
+    {
+      "id": 30,
+      "subject": "chinese",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "'床前明月光'的作者是谁？",
+      "options": ["杜甫", "白居易", "李白", "王维"],
+      "answer": 2,
+      "explanation": "《静夜思》是唐代诗人李白的著名诗作！"
+    },
+    {
+      "id": 31,
+      "subject": "chinese",
+      "ageGroup": "6-8",
+      "type": "match",
+      "question": "把下列词语和对应的类别匹配起来",
+      "explanation": "苹果是水果，小狗是动物，红色是颜色！",
+      "pairs": [
+        {
+          "id": "q31-pair-1",
+          "left": "苹果",
+          "right": "水果"
+        },
+        {
+          "id": "q31-pair-2",
+          "left": "小狗",
+          "right": "动物"
+        },
+        {
+          "id": "q31-pair-3",
+          "left": "红色",
+          "right": "颜色"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "subject": "chinese",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "下列哪个是反义词组？",
+      "options": ["美丽-漂亮", "高大-矮小", "高兴-快乐", "迅速-快速"],
+      "answer": 1,
+      "explanation": "高大和矮小意思相反，是反义词！其他三组都是近义词。"
+    },
+    {
+      "id": 33,
+      "subject": "english",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "What is the meaning of 'apple'?",
+      "options": ["香蕉", "苹果", "橘子", "西瓜"],
+      "answer": 1,
+      "explanation": "Apple means 苹果 in Chinese!"
+    },
+    {
+      "id": 34,
+      "subject": "english",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "How do you say '谢谢' in English?",
+      "options": ["Please", "Sorry", "Thank you", "Hello"],
+      "answer": 2,
+      "explanation": "Thank you = 谢谢你！"
+    },
+    {
+      "id": 35,
+      "subject": "english",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "Which word means '大象'?",
+      "options": ["Tiger", "Elephant", "Lion", "Bear"],
+      "answer": 1,
+      "explanation": "Elephant = 大象！"
+    },
+    {
+      "id": 36,
+      "subject": "english",
+      "ageGroup": "6-8",
+      "type": "match",
+      "question": "把英文单词和中文意思匹配",
+      "explanation": "cat=猫，dog=狗，bird=鸟，fish=鱼",
+      "pairs": [
+        {
+          "id": "q36-pair-1",
+          "left": "cat",
+          "right": "猫"
+        },
+        {
+          "id": "q36-pair-2",
+          "left": "dog",
+          "right": "狗"
+        },
+        {
+          "id": "q36-pair-3",
+          "left": "bird",
+          "right": "鸟"
+        },
+        {
+          "id": "q36-pair-4",
+          "left": "fish",
+          "right": "鱼"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "subject": "english",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "Choose the correct answer: I ___ a student.",
+      "options": ["is", "am", "are", "be"],
+      "answer": 1,
+      "explanation": "I后面要用am：I am a student."
+    },
+    {
+      "id": 38,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "一个长方形的长是8cm，宽是5cm，它的周长是多少？",
+      "options": ["13cm", "26cm", "40cm", "16cm"],
+      "answer": 1,
+      "explanation": "周长 = (长+宽)×2 = (8+5)×2 = 26cm"
+    },
+    {
+      "id": 39,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "下列哪个数是质数？",
+      "options": ["15", "21", "23", "27"],
+      "answer": 2,
+      "explanation": "质数只能被1和自身整除。23只能被1和23整除，是质数。15=3×5, 21=3×7, 27=3×9"
+    },
+    {
+      "id": 40,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "0.25用分数表示是多少？",
+      "options": ["1/2", "1/3", "1/4", "1/5"],
+      "answer": 2,
+      "explanation": "0.25 = 25/100 = 1/4"
+    },
+    {
+      "id": 41,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "一个三角形三个角的和是多少度？",
+      "options": ["90°", "180°", "270°", "360°"],
+      "answer": 1,
+      "explanation": "任何三角形的三个内角之和都是180°！"
+    },
+    {
+      "id": 42,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "match",
+      "question": "将下列分数从大到小排序",
+      "explanation": "3/4=0.75, 1/2=0.5, 2/5=0.4, 1/3≈0.33",
+      "pairs": [
+        {
+          "id": "q42-pair-1",
+          "left": "1/2",
+          "right": "第二"
+        },
+        {
+          "id": "q42-pair-2",
+          "left": "1/3",
+          "right": "最小"
+        },
+        {
+          "id": "q42-pair-3",
+          "left": "2/5",
+          "right": "第三"
+        },
+        {
+          "id": "q42-pair-4",
+          "left": "3/4",
+          "right": "最大"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "小红买了3支笔，每支2.5元，一共花了多少钱？",
+      "options": ["5.5元", "6.5元", "7.5元", "8.5元"],
+      "answer": 2,
+      "explanation": "3 × 2.5 = 7.5元"
+    },
+    {
+      "id": 44,
+      "subject": "math",
+      "ageGroup": "9-12",
+      "type": "match",
+      "question": "把几何图形和它的面积公式配对",
+      "explanation": "正方形S=a², 长方形S=ab, 三角形S=ah/2",
+      "pairs": [
+        {
+          "id": "q44-pair-1",
+          "left": "正方形",
+          "right": "边长×边长"
+        },
+        {
+          "id": "q44-pair-2",
+          "left": "长方形",
+          "right": "长×宽"
+        },
+        {
+          "id": "q44-pair-3",
+          "left": "三角形",
+          "right": "底×高÷2"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "subject": "chinese",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "下列哪个成语使用正确？",
+      "options": [
+        "他考试得了满分，真是守株待兔",
+        "小明做事总是画蛇添足，效率很高",
+        "这件事情我胸有成竹，一定能做好",
+        "他每天刻舟求剑，非常勤奋"
+      ],
+      "answer": 2,
+      "explanation": "胸有成竹比喻做事前已有充分的把握。守株待兔(侥幸)、画蛇添足(多此一举)、刻舟求剑(死板)都不合适。"
+    },
+    {
+      "id": 46,
+      "subject": "chinese",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "'但愿人长久，千里共婵娟'中的'婵娟'指什么？",
+      "options": ["美女", "月亮", "星星", "家乡"],
+      "answer": 1,
+      "explanation": "苏轼《水调歌头》，'婵娟'在古诗词中常指月亮！"
+    },
+    {
+      "id": 47,
+      "subject": "chinese",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "下列哪句使用了比喻的修辞手法？",
+      "options": ["他跑得很快", "月亮像一个大圆盘", "春天来了，花儿开了", "我今天很开心"],
+      "answer": 1,
+      "explanation": "把月亮比作大圆盘，这是典型的比喻句！"
+    },
+    {
+      "id": 48,
+      "subject": "chinese",
+      "ageGroup": "9-12",
+      "type": "match",
+      "question": "把成语和它的意思配对",
+      "explanation": "画龙点睛=关键之处添一笔使之生动；对牛弹琴=对不懂的人讲道理；亡羊补牢=出问题后及时补救",
+      "pairs": [
+        {
+          "id": "q48-pair-1",
+          "left": "画龙点睛",
+          "right": "关键一笔"
+        },
+        {
+          "id": "q48-pair-2",
+          "left": "对牛弹琴",
+          "right": "白费口舌"
+        },
+        {
+          "id": "q48-pair-3",
+          "left": "亡羊补牢",
+          "right": "及时补救"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "subject": "chinese",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "《西游记》中孙悟空从哪里蹦出来的？",
+      "options": ["花果山", "石头里", "天上", "海里"],
+      "answer": 1,
+      "explanation": "孙悟空是从花果山上的一块仙石中蹦出来的！"
+    },
+    {
+      "id": 50,
+      "subject": "english",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She don't like apples.",
+        "She doesn't likes apples.",
+        "She doesn't like apples.",
+        "She not like apples."
+      ],
+      "answer": 2,
+      "explanation": "第三人称单数：doesn't + 动词原形 → She doesn't like apples."
+    },
+    {
+      "id": 51,
+      "subject": "english",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "What is the past tense of 'go'?",
+      "options": ["goed", "goes", "gone", "went"],
+      "answer": 3,
+      "explanation": "go的过去式是went，是不规则变化！"
+    },
+    {
+      "id": 52,
+      "subject": "english",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "Which word means '图书馆'?",
+      "options": ["Classroom", "Library", "Museum", "Hospital"],
+      "answer": 1,
+      "explanation": "Library = 图书馆。Classroom=教室, Museum=博物馆, Hospital=医院"
+    },
+    {
+      "id": 53,
+      "subject": "english",
+      "ageGroup": "9-12",
+      "type": "match",
+      "question": "把英文短语和中文翻译配对",
+      "explanation": "look after=照顾/照看, give up=放弃, turn on=打开(电器)",
+      "pairs": [
+        {
+          "id": "q53-pair-1",
+          "left": "look after",
+          "right": "照顾"
+        },
+        {
+          "id": "q53-pair-2",
+          "left": "give up",
+          "right": "放弃"
+        },
+        {
+          "id": "q53-pair-3",
+          "left": "turn on",
+          "right": "打开"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "subject": "english",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "Read and choose: 'Tom is taller ___ Jack.'",
+      "options": ["then", "than", "that", "this"],
+      "answer": 1,
+      "explanation": "比较级用than：taller than 表示'比...更高'"
+    },
+    {
+      "id": 55,
+      "subject": "common",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "太阳从哪个方向升起？",
+      "options": ["东边", "西边", "南边", "北边"],
+      "answer": 0,
+      "explanation": "太阳从东方升起，从西方落下！"
+    },
+    {
+      "id": 56,
+      "subject": "common",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "下面哪个是中国的首都？",
+      "options": ["上海", "北京", "广州", "深圳"],
+      "answer": 1,
+      "explanation": "北京是中国的首都，有故宫、天安门等著名景点！"
+    },
+    {
+      "id": 57,
+      "subject": "common",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "人体最大的器官是什么？",
+      "options": ["心脏", "肝脏", "皮肤", "大脑"],
+      "answer": 2,
+      "explanation": "皮肤是人体最大的器官，一个成年人的皮肤面积约1.5-2平方米！"
+    },
+    {
+      "id": 58,
+      "subject": "common",
+      "ageGroup": "6-8",
+      "type": "choice",
+      "question": "彩虹有几种颜色？",
+      "options": ["5种", "6种", "7种", "8种"],
+      "answer": 2,
+      "explanation": "彩虹有7种颜色：红橙黄绿青蓝紫！"
+    },
+    {
+      "id": 59,
+      "subject": "common",
+      "ageGroup": "6-8",
+      "type": "match",
+      "question": "把节日和对应的日期配对",
+      "explanation": "元旦1月1日，儿童节6月1日，国庆节10月1日！",
+      "pairs": [
+        {
+          "id": "q59-pair-1",
+          "left": "元旦",
+          "right": "1月1日"
+        },
+        {
+          "id": "q59-pair-2",
+          "left": "儿童节",
+          "right": "6月1日"
+        },
+        {
+          "id": "q59-pair-3",
+          "left": "国庆节",
+          "right": "10月1日"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "subject": "common",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "地球上最大的海洋是哪个？",
+      "options": ["大西洋", "印度洋", "太平洋", "北冰洋"],
+      "answer": 2,
+      "explanation": "太平洋是地球上最大的海洋，面积约1.65亿平方公里！"
+    },
+    {
+      "id": 61,
+      "subject": "common",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "光在真空中的速度约为多少？",
+      "options": ["30万千米/秒", "3万千米/秒", "300千米/秒", "3000千米/秒"],
+      "answer": 0,
+      "explanation": "光速约为30万千米/秒，是宇宙中最快的速度！"
+    },
+    {
+      "id": 62,
+      "subject": "common",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "DNA的全称是什么？",
+      "options": ["核糖核酸", "脱氧核糖核酸", "氨基酸", "蛋白质"],
+      "answer": 1,
+      "explanation": "DNA全称是脱氧核糖核酸(Deoxyribonucleic Acid)，是生命的遗传物质。"
+    },
+    {
+      "id": 63,
+      "subject": "common",
+      "ageGroup": "9-12",
+      "type": "choice",
+      "question": "二十四节气中，哪个节气表示冬天开始？",
+      "options": ["立冬", "冬至", "小雪", "大雪"],
+      "answer": 0,
+      "explanation": "立冬是冬季的第一个节气，表示冬天正式开始！"
+    },
+    {
+      "id": 64,
+      "subject": "common",
+      "ageGroup": "9-12",
+      "type": "match",
+      "question": "把科学家和他的成就配对",
+      "explanation": "牛顿发现万有引力，爱因斯坦提出相对论，达尔文创立进化论。",
+      "pairs": [
+        {
+          "id": "q64-pair-1",
+          "left": "牛顿",
+          "right": "万有引力"
+        },
+        {
+          "id": "q64-pair-2",
+          "left": "爱因斯坦",
+          "right": "相对论"
+        },
+        {
+          "id": "q64-pair-3",
+          "left": "达尔文",
+          "right": "进化论"
+        }
+      ]
+    }
+  ]
+}

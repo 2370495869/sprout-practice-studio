@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.npm-cache/
+/.playwright-mcp/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+# The unreferenced prototype is kept locally; the current app lives in src/.
+/js/
+generate_report.py

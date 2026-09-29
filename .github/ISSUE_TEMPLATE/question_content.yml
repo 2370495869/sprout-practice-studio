@@ -1,0 +1,41 @@
+name: 题目内容修订
+description: 报告题目事实、答案、解释或适龄性问题
+title: '[题目修订] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        当前题库是演示样例。请提供可公开的出处或核查依据；不要附带儿童个人信息。
+  - type: input
+    id: question_id
+    attributes:
+      label: 题目 ID
+      placeholder: '例如：42'
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 修订类型
+      options:
+        - 事实或答案错误
+        - 解释不清或有歧义
+        - 年龄适配问题
+        - 拼写或格式问题
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 问题与依据
+      description: 说明建议修订内容和可公开核查的来源。
+    validations:
+      required: true
+  - type: checkboxes
+    id: review
+    attributes:
+      label: 审阅说明
+      options:
+        - label: 我已检查此建议，不含可识别儿童身份的信息。
+          required: true

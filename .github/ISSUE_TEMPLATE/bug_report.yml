@@ -1,0 +1,55 @@
+name: 缺陷报告
+description: 报告可复现的应用问题
+title: '[缺陷] '
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请不要在公开 Issue 中填写儿童姓名、联系方式、学校信息或含个人信息的题包。
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述
+      description: 简洁说明发生了什么。
+      placeholder: 选择题提交后没有显示反馈。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 按顺序列出可复现步骤。
+      placeholder: |
+        1. 打开练习页
+        2. 选择一个选项
+        3. 观察结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器与设备
+      description: 请提供浏览器版本、操作系统和设备类型（不要提供个人信息）。
+      placeholder: Chrome 当前版本，Windows 桌面端
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关错误信息
+      description: 请先移除令牌、个人信息和私有题目内容。
+    validations:
+      required: false

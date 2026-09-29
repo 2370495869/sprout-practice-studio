@@ -1,0 +1,7 @@
+dist/
+node_modules/
+coverage/
+.npm-cache/
+/.playwright-mcp/
+package-lock.json
+/js/

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Sprout Practice Studio sprout mark</title>
+  <circle cx="64" cy="64" r="60" fill="#b9d87b"/>
+  <path d="M64 101V58" fill="none" stroke="#174d3e" stroke-linecap="round" stroke-width="8"/>
+  <path d="M63 65C39 67 25 54 25 34c20-1 36 7 41 25" fill="#fffdf7" stroke="#174d3e" stroke-linejoin="round" stroke-width="6"/>
+  <path d="M65 59c1-21 15-34 39-34 0 21-11 36-32 40" fill="#eaf2d6" stroke="#174d3e" stroke-linejoin="round" stroke-width="6"/>
+  <path d="M43 110h42" fill="none" stroke="#174d3e" stroke-linecap="round" stroke-width="8"/>
+</svg>
