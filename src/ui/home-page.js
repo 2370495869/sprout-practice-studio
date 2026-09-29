@@ -1,6 +1,6 @@
 import { validateQuestionBank } from '../domain/question-bank.js';
 import { loadQuestionBank, resetQuestionBank, saveQuestionBank } from '../state/local-store.js';
-import { button, clear, element, makeBrand, makeStatus, setStatus } from './dom.js';
+import { button, clear, element, makeBrand, makeStatus, setStatus, sproutImageUrl } from './dom.js';
 
 const AGE_GROUPS = [
   { value: '3-5', title: '小萌芽', detail: '3–5 岁', icon: '🌱' },
@@ -46,7 +46,7 @@ export function renderHomePage(root, { defaultBank, initialBank }) {
     element('div', {
       className: 'home-hero__art',
       attrs: { 'aria-hidden': 'true' },
-      children: [element('img', { attrs: { src: 'assets/sprout.svg', alt: '' } })],
+      children: [element('img', { attrs: { src: sproutImageUrl, alt: '' } })],
     }),
   );
   page.append(hero);

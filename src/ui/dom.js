@@ -1,3 +1,5 @@
+import sproutImageUrl from '../../assets/sprout.svg';
+
 export function element(tagName, { className, text, attrs = {}, children = [] } = {}) {
   const node = document.createElement(tagName);
   if (className) node.className = className;
@@ -43,7 +45,7 @@ export function makeBrand() {
   brand.append(
     element('img', {
       className: 'brand__mark',
-      attrs: { src: 'assets/sprout.svg', alt: '', 'aria-hidden': 'true' },
+      attrs: { src: sproutImageUrl, alt: '', 'aria-hidden': 'true' },
     }),
   );
   const name = element('span', { className: 'brand__name' });
@@ -54,6 +56,8 @@ export function makeBrand() {
   brand.append(name);
   return brand;
 }
+
+export { sproutImageUrl };
 
 export function makeStatus(className = 'status-message') {
   return element('p', {
