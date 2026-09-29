@@ -8,7 +8,7 @@
 
 > 当前题库中的 64 道题是演示样例，尚未经过课程专家或学校审核。请家长、老师在教学使用前自行检查内容和难度。
 
-**在线演示：暂未提供。** GitHub Pages 工作流已配置，但尚无已验证的线上部署地址或 CI 运行结果。CI 徽章会显示仓库中的实际工作流状态。
+**在线演示：** [GitHub Pages](https://2370495869.github.io/sprout-practice-studio/)。
 
 **源码仓库：** [2370495869/sprout-practice-studio](https://github.com/2370495869/sprout-practice-studio)。
 
