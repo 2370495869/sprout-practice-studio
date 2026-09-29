@@ -10,7 +10,7 @@
 
 **在线演示：暂未提供。** GitHub Pages 工作流已配置，但尚无已验证的线上部署地址或 CI 运行结果。CI 徽章会显示仓库中的实际工作流状态。
 
-README 中的仓库链接和徽章使用拟定地址 `2370495869/sprout-practice-studio`；公开仓库创建及名称可用性仍需确认。
+**源码仓库：** [2370495869/sprout-practice-studio](https://github.com/2370495869/sprout-practice-studio)。
 
 ## 首页截图
 
